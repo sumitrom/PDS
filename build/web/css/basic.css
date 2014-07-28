@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2014, 11:16:13 AM
+    Author     : Sumitro
+*/
+
+
+body {
+ background-color:  #DEB887;// #980000;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 120%;
+    background:  #5F9EA0;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Tahoma;
+    font-size: 100%;
+    background:  #5F9EA0;
+    padding: 20px;
+}
+
+#container
+{
+    
+    margin: 0 30px;
+    background: #87CEFA;
+    font-family: Tahoma;
+}
+
+#header
+{
+    font-family: Tahoma;
+    font-size: 120%;
+    background:  #5F9EA0;
+    padding: 20px;
+}
+
+#header h1 
+{ 
+    font-family: Tahoma;
+    font-size: 100%;
+    margin: 0; 
+
+}
+
+#container h2
+{
+    color: #000;
+    font-size: 120%;
+    text-align: center;
+    margin: 0 0 .5em;
+}
+
+#navigation
+{
+    float: left;
+    width: 100%;
+    background: #333;
+}
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li a
+{
+    display: block;
+    float: right;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content
+{
+    color: #0000FF;
+    clear: left;
+    padding: 20px;
+
+}
+
+#content h2
+{
+    color: #000;
+    font-size: 120%;
+    text-align: center;
+    margin: 0 0 .5em;
+}
+
+#content h3
+{
+
+    font-family: Tahoma;
+    color: #000;
+    font-size: 75%;
+    margin: 0 0 .5em;
+}
+
+#content p
+{
+    font-family: Tahoma;
+    color: #000;
+    font-size: 75%;
+    margin: 0 0 .5em;
+}
+
+#footer
+{
+    background:  #5F9EA0;
+    text-align: center;
+    padding: 20px;
+    font: Verdana;
+    font-size: 75%;
+    font-weight: bold;
+    height: 14px;
+}
+
+#loginbox .myinput {
+    background-color: #F5FFFA;
+    font-size:12px;
+    width: 200px;
+    height: 12px;
+    border: 1px #999;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 .25em;
+}
+
+#loginbox .mybutton {
+    background-color:  #FE9A2E;
+    font-weight: bold;
+    font-size:14px;
+    width: 220px;
+    height: 35px;
+    border: 1px #999;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 .25em;
+    cursor: pointer;
+}
+
+.loginbox {
+    margin-left: auto ;
+    margin-right: auto ;
+}
